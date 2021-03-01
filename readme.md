@@ -8,4 +8,4 @@ Experimental
 
 ## Parcel bundler for React
 
-<https://www.freecodecamp.org/news/how-to-up-a-react-app-with-parcel/>
+<https://blog.jakoblind.no/react-parcel/>

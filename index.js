@@ -1,4 +1,6 @@
-import React from "react"
-import ReactDOM from "react-dom"
+import React from "react";
+import ReactDOM from "react-dom";
+import Presenter from "./src/Presenter"
 
-ReactDOM.render(<h1>Hej</h1>, document.getElementById("root"))
+var mountNode = document.getElementById("app");
+ReactDOM.render(<Presenter />, mountNode);
