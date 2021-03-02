@@ -1,9 +1,12 @@
 # NPM Package
 
-- React library deployed as NPM package
+This component library is published in the NPM registry, available for anyone to install and use in a project.
+
+- The React components library is deployed as an NPM package
+- The package is available for anyone to install and use
 - The NPM package is organization scoped: <https://docs.npmjs.com/creating-and-publishing-an-organization-scoped-package>
 - Parcel bundler for dev
-- Webpack config for production
+- Webpack configuration for production build
 
 ## Display the component library
 
@@ -52,7 +55,7 @@ The first time a scope package is to be published, the public acces flag must be
 > npm i @abbeblubb/react-library
 ```
 
-## Import 
+## Import
 
 ``` Reactjs
 import { Button, Hello } from "@abbeblubb/react-library";
