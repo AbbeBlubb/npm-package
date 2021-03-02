@@ -2,6 +2,8 @@
 
 This component library is published in the NPM registry, available for anyone to install and use in a project.
 
+NPM Registry: <https://www.npmjs.com/package/@abbeblubb/react-library>
+
 - The React components library is deployed as an NPM package
 - The package is available for anyone to install and use
 - The NPM package is organization scoped: <https://docs.npmjs.com/creating-and-publishing-an-organization-scoped-package>
