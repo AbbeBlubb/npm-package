@@ -1,6 +1,6 @@
 {
   "name": "@abbeblubb/react-library",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Experimental",
   "main": "dist/exporter.js",
   "scripts": {
