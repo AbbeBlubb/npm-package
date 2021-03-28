@@ -1,9 +1,7 @@
 import React from "react";
 
-function Button() {
+export function Button() {
     return(
         <button style={{ backgroundColor: "aqua"  }}>Click me</button>
     )
 }
-
-export default Button;

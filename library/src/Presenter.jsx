@@ -1,6 +1,6 @@
 import React from "react";
-import Hello from "./Hello";
-import Button from "./Button"
+import { Button } from "./Button";
+import { Hello } from "./Hello";
 
 class Presenter extends React.Component {
     render() {

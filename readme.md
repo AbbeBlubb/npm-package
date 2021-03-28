@@ -10,28 +10,7 @@ NPM Registry: <https://www.npmjs.com/package/@abbeblubb/react-library>
 - Parcel bundler for dev
 - Webpack configuration for production build
 
-## Install
 
-``` Nodejs
-> npm i @abbeblubb/react-library
-```
-
-## Import
-
-``` Reactjs
-import { Button, Hello } from "@abbeblubb/react-library";
-
-function App() {
-  return (
-    <div style={{ textAlign: "center" }}>
-      <Hello name="Elvis!" />
-      <Button />
-    </div>
-  );
-}
-
-export default App;
-```
 
 ## Display the component library locally
 

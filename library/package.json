@@ -1,8 +1,7 @@
 {
   "name": "@abbeblubb/react-library",
-  "version": "1.0.4",
-  "description": "Experimental",
-  "main": "dist/exporter.js",
+  "description": "Project to use for linking the NPM lib for developing of the NPM lib",
+  "main": "src/exporter.js",
   "scripts": {
     "dev": "parcel index.html --open",
     "build:app": "parcel build index.html",
@@ -12,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/AbbeBlubb/npm-package.git"
   },
-  "author": "",
+  "author": "Alberto Chávez Pérez",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AbbeBlubb/npm-package/issues"
@@ -23,13 +22,11 @@
     "@babel/preset-env": "^7.13.9",
     "@babel/preset-react": "^7.12.13",
     "babel-loader": "^8.2.2",
-    "parcel-bundler": "^1.12.4",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "parcel-bundler": "1.12.3",
     "webpack": "^5.24.2",
     "webpack-cli": "^4.5.0"
   },
-  "peerDependencies": {
+  "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
