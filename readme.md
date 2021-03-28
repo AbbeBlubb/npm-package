@@ -17,12 +17,12 @@ This GitHub repo contains tree projects:
 
 ## Library project folder
 
-Display the component library locally, and develop the components. Read more in the projects readme.md.
+Display the component library locally, and develop the components. Read more in the library project readme file.
 
 ## Publish project folder
 
-Scripts to publish the library to NPM. Read more in the projects readme.md.
+Scripts to publish the library to NPM. Read more in the publish project readme file.
 
 ## Consumer project folder
 
-Example on how to consume the published NPM modules. Read more in the projects readme.md.
+Example on how to consume the published NPM modules. Read more in the consumer project readme file.
