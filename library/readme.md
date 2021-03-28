@@ -9,3 +9,11 @@ Hot reload with Parcel.
 ``` Nodejs
 > npm run dev
 ```
+
+The library can be installed locally in other projects with a symlink.
+
+``` Bash
+> npm i ../library
+```
+
+The library will appear in the project's node_modules as a symlink to the library project.
