@@ -4,51 +4,25 @@ This component library is published in the NPM registry, available for anyone to
 
 NPM Registry: <https://www.npmjs.com/package/@abbeblubb/react-library>
 
+GitHub source code: <https://github.com/AbbeBlubb/npm-package>
+
 - The React components library is deployed as an NPM package
 - The package is available for anyone to install and use
 - The NPM package is organization scoped: <https://docs.npmjs.com/creating-and-publishing-an-organization-scoped-package>
 - Parcel bundler for dev
 - Webpack configuration for production build
+- Scripts for publishing
 
+This GitHub repo contains tree projects:
 
+## Library project folder
 
-## Display the component library locally
+Display the component library locally, and develop the components. Read more in the projects readme.md.
 
-Hot reload with Parcel.
+## Publish project folder
 
-``` Nodejs
-> npm run dev
-```
+Scripts to publish the library to NPM. Read more in the projects readme.md.
 
-## Publish the library to NPM
+## Consumer project folder
 
-### Build the library
-
-Build with Webpack.
-
-``` Nodejs
-> npm run build:lib
-```
-
-### Sign in to NPM
-
-``` Nodejs
-> npm adduser
-```
-
-### First publish
-
-The first time a scope package is to be published, the public acces flag must be added in order for the package to be public.
-
-``` Nodejs
-> npm publish --access=public
-```
-
-### Subsequent publishes
-
-- Update the SemVer in package.json
-- Push to registry
-
-``` Nodejs
-> npm publish
-```
+Example on how to consume the published NPM modules. Read more in the projects readme.md.
