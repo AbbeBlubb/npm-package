@@ -17,3 +17,7 @@ The library can be installed locally in other projects with a symlink.
 ```
 
 The library will appear in the project's node_modules as a symlink to the library project.
+
+## Sources
+
+<https://marcobotto.com/blog/compiling-and-bundling-typescript-libraries-with-webpack/>
