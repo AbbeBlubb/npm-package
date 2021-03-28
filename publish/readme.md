@@ -8,7 +8,7 @@
 
 ## Publish
 
-This script will clear the dist folder, build a bundle, copy files and publish to npm:
+First, bump the semver in package.json. Then, this script will clear the dist folder, build a bundle, copy files and publish to npm:
 
 ``` Nodejs
 > npm run build:lib
