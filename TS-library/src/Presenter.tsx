@@ -1,8 +1,8 @@
-import React from "react";
+import * as React from "react";
 import { Button } from "./Button";
 import { Hello } from "./Hello";
 
-class Presenter extends React.Component {
+export class Presenter extends React.Component {
     render() {
         return (
             <div style={{ textAlign: "center", fontFamily: "Arial" }}>
@@ -14,11 +14,9 @@ class Presenter extends React.Component {
                 </div>
                 <div style={{ marginTop: "40px" }}>
                     <p style={{ fontWeight: "bold" }}>Button component</p>
-                    <Button />
+                    <Button text="Julio!" />
                 </div>
             </div>
         );
     }
 }
-
-export default Presenter;
