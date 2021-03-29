@@ -6,8 +6,8 @@
     "dev": "parcel index.html --open",
     "build:app": "parcel build index.html",
 
-    "transpile-umd": "webpack",
-    "declaration-amd": "tsc --outFile ./_types/types",
+    "transpile-umd": "rm -rf _bundles && webpack",
+    "declaration-amd": "rm -rf _types && tsc --outFile ./_types/types",
     "build:lib": "npm run transpile-umd && npm run declaration-amd"
   },
   "repository": {

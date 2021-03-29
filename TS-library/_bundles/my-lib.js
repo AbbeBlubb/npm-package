@@ -2,11 +2,11 @@
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
 	else if(typeof define === 'function' && define.amd)
-		define("@abbeblubb/react-library", [], factory);
+		define("@abbeblubb/react-library-ts", [], factory);
 	else if(typeof exports === 'object')
-		exports["@abbeblubb/react-library"] = factory();
+		exports["@abbeblubb/react-library-ts"] = factory();
 	else
-		root["@abbeblubb/react-library"] = factory();
+		root["@abbeblubb/react-library-ts"] = factory();
 })(self, function() {
 return /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
