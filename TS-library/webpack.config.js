@@ -11,7 +11,7 @@ module.exports = {
         path: path.resolve(__dirname, "_bundles"),
         filename: "[name].js",
         libraryTarget: "umd",
-        library: "@abbeblubb/react-library",
+        library: "@abbeblubb/react-library-ts",
         umdNamedDefine: true,
     },
     resolve: {

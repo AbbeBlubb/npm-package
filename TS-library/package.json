@@ -1,5 +1,5 @@
 {
-  "name": "@abbeblubb/react-library",
+  "name": "@abbeblubb/react-library-ts",
   "description": "Project to use for linking the NPM lib for developing of the NPM lib",
   "main": "src/exporter.js",
   "scripts": {
