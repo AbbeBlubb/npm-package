@@ -5,10 +5,10 @@
   "scripts": {
     "dev": "parcel index.html --open",
     "build:app": "parcel build index.html",
-    "build:lib": "webpack",
-    "transpile-commonjs": "tsc",
-    "transpile-esmodule": "tsc -m es6 --outDir lib-esm",
-    "transpile-umd": "webpack"
+
+    "transpile-umd": "webpack",
+    "declaration-amd": "tsc --outFile ./_types/types",
+    "build:lib": "npm run transpile-umd && npm run declaration-amd"
   },
   "repository": {
     "type": "git",

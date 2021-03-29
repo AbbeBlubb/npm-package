@@ -9,12 +9,12 @@
 		root["@abbeblubb/react-library"] = factory();
 })(self, function() {
 return /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ 418:
 /***/ ((module) => {
 
+"use strict";
 /*
 object-assign
 (c) Sindre Sorhus
@@ -112,6 +112,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 /***/ 408:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
+"use strict";
 /** @license React v17.0.1
  * react.production.min.js
  *
@@ -142,6 +143,7 @@ exports.useLayoutEffect=function(a,b){return S().useLayoutEffect(a,b)};exports.u
 /***/ 294:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 if (true) {
@@ -151,11 +153,10 @@ if (true) {
 
 /***/ }),
 
-/***/ 753:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ 798:
+/***/ (function(module, exports, __webpack_require__) {
 
-
-var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
 }) : (function(o, m, k, k2) {
@@ -174,22 +175,35 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.Button = void 0;
-var React = __importStar(__webpack_require__(294));
-function Button(props) {
-    return (React.createElement("button", { style: { backgroundColor: "aqua" } }, props.text ? props.text : "Click me!"));
-}
-exports.Button = Button;
+(function (factory) {
+    if ( true && typeof module.exports === "object") {
+        var v = factory(__webpack_require__(875), exports);
+        if (v !== undefined) module.exports = v;
+    }
+    else if (true) {
+        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__, exports, __webpack_require__(294)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+		__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+		(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+		__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+    }
+})(function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Button = void 0;
+    var React = __importStar(require("react"));
+    function Button(props) {
+        return (React.createElement("button", { style: { backgroundColor: "aqua" } }, props.text ? props.text : "Click me!"));
+    }
+    exports.Button = Button;
+});
 
 
 /***/ }),
 
-/***/ 625:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ 620:
+/***/ (function(module, exports, __webpack_require__) {
 
-
-var __extends = (this && this.__extends) || (function () {
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
             ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -223,24 +237,80 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.Hello = void 0;
-var React = __importStar(__webpack_require__(294));
-var Hello = /** @class */ (function (_super) {
-    __extends(Hello, _super);
-    function Hello() {
-        return _super !== null && _super.apply(this, arguments) || this;
+(function (factory) {
+    if ( true && typeof module.exports === "object") {
+        var v = factory(__webpack_require__(875), exports);
+        if (v !== undefined) module.exports = v;
     }
-    Hello.prototype.render = function () {
-        return (React.createElement("div", { style: { fontFamily: "Arial" } },
-            React.createElement("p", null,
-                "Hello ",
-                this.props.name)));
-    };
-    return Hello;
-}(React.Component));
-exports.Hello = Hello;
+    else if (true) {
+        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__, exports, __webpack_require__(294)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+		__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+		(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+		__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+    }
+})(function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Hello = void 0;
+    var React = __importStar(require("react"));
+    var Hello = /** @class */ (function (_super) {
+        __extends(Hello, _super);
+        function Hello() {
+            return _super !== null && _super.apply(this, arguments) || this;
+        }
+        Hello.prototype.render = function () {
+            return (React.createElement("div", { style: { fontFamily: "Arial" } },
+                React.createElement("p", null,
+                    "Hello ",
+                    this.props.name)));
+        };
+        return Hello;
+    }(React.Component));
+    exports.Hello = Hello;
+});
 
+
+/***/ }),
+
+/***/ 231:
+/***/ ((module, exports, __webpack_require__) => {
+
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (factory) {
+    if ( true && typeof module.exports === "object") {
+        var v = factory(__webpack_require__(875), exports);
+        if (v !== undefined) module.exports = v;
+    }
+    else if (true) {
+        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__, exports, __webpack_require__(620), __webpack_require__(798)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+		__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+		(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+		__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+    }
+})(function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Button = exports.Hello = void 0;
+    var Hello_1 = require("./Hello");
+    Object.defineProperty(exports, "Hello", { enumerable: true, get: function () { return Hello_1.Hello; } });
+    var Button_1 = require("./Button");
+    Object.defineProperty(exports, "Button", { enumerable: true, get: function () { return Button_1.Button; } });
+});
+
+
+/***/ }),
+
+/***/ 875:
+/***/ ((module) => {
+
+function webpackEmptyContext(req) {
+	var e = new Error("Cannot find module '" + req + "'");
+	e.code = 'MODULE_NOT_FOUND';
+	throw e;
+}
+webpackEmptyContext.keys = () => ([]);
+webpackEmptyContext.resolve = webpackEmptyContext;
+webpackEmptyContext.id = 875;
+module.exports = webpackEmptyContext;
 
 /***/ })
 
@@ -252,8 +322,9 @@ exports.Hello = Hello;
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
 /******/ 		// Check if module is in cache
-/******/ 		if(__webpack_module_cache__[moduleId]) {
-/******/ 			return __webpack_module_cache__[moduleId].exports;
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
 /******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = __webpack_module_cache__[moduleId] = {
@@ -270,20 +341,18 @@ exports.Hello = Hello;
 /******/ 	}
 /******/ 	
 /************************************************************************/
-var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
-(() => {
-var exports = __webpack_exports__;
-
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.Button = exports.Hello = void 0;
-var Hello_1 = __webpack_require__(625);
-Object.defineProperty(exports, "Hello", ({ enumerable: true, get: function () { return Hello_1.Hello; } }));
-var Button_1 = __webpack_require__(753);
-Object.defineProperty(exports, "Button", ({ enumerable: true, get: function () { return Button_1.Button; } }));
-
-})();
-
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module is referenced by other modules so it can't be inlined
+/******/ 	var __webpack_exports__ = __webpack_require__(231);
+/******/ 	
 /******/ 	return __webpack_exports__;
 /******/ })()
 ;

@@ -31,7 +31,14 @@ module.exports = {
                 exclude: /node_modules/,
                 use: [
                   {
-                      loader: "ts-loader"
+                      loader: "ts-loader",
+                      options: {
+                          compilerOptions: {
+                            "emitDeclarationOnly": false,
+                            "declaration": false,
+                            "module": "umd"
+                          }
+                      }
                   }
               ],
             },

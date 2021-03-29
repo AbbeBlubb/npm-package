@@ -21,3 +21,6 @@ The library will appear in the project's node_modules as a symlink to the librar
 ## Sources
 
 <https://marcobotto.com/blog/compiling-and-bundling-typescript-libraries-with-webpack/>
+
+    "transpile-commonjs": "tsc",
+    "transpile-esmodule": "tsc -m es6 --outDir lib-esm",
