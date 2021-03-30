@@ -1,6 +1,5 @@
 var path = require('path');
 const TerserPlugin = require("terser-webpack-plugin");
-var DeclarationBundlerPlugin = require('declaration-bundler-webpack-plugin');
 
 module.exports = {
     entry: {
@@ -44,11 +43,4 @@ module.exports = {
             },
         ],
     },
-  //   watch: true,
-  //   plugins: [
-  //     new DeclarationBundlerPlugin({
-  //         moduleName:'@abbeblubbreactlibrary',
-  //         out:'./_bundles.d.ts',
-  //     })
-  // ]
 };

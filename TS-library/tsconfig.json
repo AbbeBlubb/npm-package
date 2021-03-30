@@ -5,7 +5,7 @@
     /* Basic Options */
     // "incremental": true,                         /* Enable incremental compilation */
     "target": "es5",                                /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', or 'ESNEXT'. */
-    "module": "amd", // Deletade "commonjs"                               /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */
+    "module": "amd", // Deletade "commonjs"         /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */
     "lib": [ "es2015", "dom" ],                     /* Specify library files to be included in the compilation. */
     // "allowJs": true,                             /* Allow javascript files to be compiled. */
     // "checkJs": true,                             /* Report errors in .js files. */
@@ -14,7 +14,7 @@
     // "declarationMap": true,                      /* Generates a sourcemap for each corresponding '.d.ts' file. */
     "sourceMap": true,                              /* Generates corresponding '.map' file. */
 
-    // outFile is used in package.json script, because webpack ts-plugin will not be able to override this
+    // Comment: outFile is used in package.json script, because webpack ts-plugin will not be able to override this
     // "outFile": "./_types/types",                  /* Concatenate and emit output to single file. */
 
     // "outDir": "lib",                             /* Redirect output structure to the directory. */
@@ -71,5 +71,11 @@
     "skipLibCheck": true,                           /* Skip type checking of declaration files. */
     "forceConsistentCasingInFileNames": true,        /* Disallow inconsistently-cased references to the same file. */
     "emitDeclarationOnly": true,
-  }
+  },
+
+  /* Comment: files - https://www.typescriptlang.org/tsconfig#files */
+  /* Comment: include - https://www.typescriptlang.org/tsconfig#include */
+  "include": [
+    "src/exporter.ts"
+  ]
 }
